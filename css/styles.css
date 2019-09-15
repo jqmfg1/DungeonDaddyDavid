@@ -28,9 +28,6 @@ body, html {
 .bg-image {
   background-image: url("https://cdnb.artstation.com/p/assets/images/images/005/318/115/large/baptiste-miny-cthulhu-3.jpg");
 
-  filter: blur(16px);
-  -webkit-filter: blur(8px);
-  
   height: 100%;
 
   background-position: center;
@@ -58,7 +55,7 @@ body, html {
   padding: 0px;
   margin: 0px;
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
   font-weight: bold;
   position: absolute;
   top: 10vh;
@@ -74,7 +71,7 @@ body, html {
   padding: 0px;
   margin: 0px;
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
   font-weight: bold;
   position: absolute;
   top: 0;
